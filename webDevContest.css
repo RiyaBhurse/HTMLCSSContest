@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 50px;
+}
+
+.tophead{
+    display: inline;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.part2{
+
+    margin-top: 27px;
+    height: 200px;
+    background-color: rgb(226, 110, 21);
+
+
+}
+#ButtonA{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.part21{    
+  
+}
+.alinepart2{
+    display: flex;
+    align-items: flex-start;
+}
+#img1{
+   margin-left: 800px;
+   
+}
+.firsthalf{
+        display: flex;
+        align-items: flex-start;
+}
+.part3{
+    padding: 20px;
+    text-align: center
+}
+#textcol{
+    color: red;
+}
+.text{    
+    display: inline;    
+}
+.part4{
+    height: 200px;
+    padding: 20px;
+    
+}
+.secondhalf4{
+    text-align: right;
+}
+
+
+.getittop {
+    
+    top: 200;
+    right: 0;
+    /* Add any additional styles you need for the element */
+}
+.part4 {
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    /* Add any other styles you need for part4 */
+}
+
+.secondhalf4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    /* Add any other styles you need for secondhalf4 */
+}
